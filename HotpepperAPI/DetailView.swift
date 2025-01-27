@@ -23,6 +23,7 @@ struct DetailView: View {
             //店舗名を表示
             Text(viewModel.nameLabel)
                 .font(.system(size: 27))
+                .bold()
         }
         //リスト表示
         List {
