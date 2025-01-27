@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		63D316152D42A0D2005AD425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D315FC2D42A0CE005AD425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D316032D42A0CF005AD425;
+			remoteInfo = HotpepperAPI;
+		};
+		63D3161F2D42A0D2005AD425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D315FC2D42A0CE005AD425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D316032D42A0CF005AD425;
+			remoteInfo = HotpepperAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63D316042D42A0CF005AD425 /* HotpepperAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotpepperAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D316142D42A0D2005AD425 /* HotpepperAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotpepperAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D3161E2D42A0D2005AD425 /* HotpepperAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotpepperAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		63D316062D42A0CF005AD425 /* HotpepperAPI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HotpepperAPI;
+			sourceTree = "<group>";
+		};
+		63D316172D42A0D2005AD425 /* HotpepperAPITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HotpepperAPITests;
+			sourceTree = "<group>";
+		};
+		63D316212D42A0D2005AD425 /* HotpepperAPIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HotpepperAPIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D316012D42A0CF005AD425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D316112D42A0D2005AD425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D3161B2D42A0D2005AD425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D315FB2D42A0CE005AD425 = {
+			isa = PBXGroup;
+			children = (
+				63D316062D42A0CF005AD425 /* HotpepperAPI */,
+				63D316172D42A0D2005AD425 /* HotpepperAPITests */,
+				63D316212D42A0D2005AD425 /* HotpepperAPIUITests */,
+				63D316052D42A0CF005AD425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63D316052D42A0CF005AD425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D316042D42A0CF005AD425 /* HotpepperAPI.app */,
+				63D316142D42A0D2005AD425 /* HotpepperAPITests.xctest */,
+				63D3161E2D42A0D2005AD425 /* HotpepperAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D316032D42A0CF005AD425 /* HotpepperAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D316282D42A0D2005AD425 /* Build configuration list for PBXNativeTarget "HotpepperAPI" */;
+			buildPhases = (
+				63D316002D42A0CF005AD425 /* Sources */,
+				63D316012D42A0CF005AD425 /* Frameworks */,
+				63D316022D42A0CF005AD425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				63D316062D42A0CF005AD425 /* HotpepperAPI */,
+			);
+			name = HotpepperAPI;
+			packageProductDependencies = (
+			);
+			productName = HotpepperAPI;
+			productReference = 63D316042D42A0CF005AD425 /* HotpepperAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63D316132D42A0D2005AD425 /* HotpepperAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D3162B2D42A0D2005AD425 /* Build configuration list for PBXNativeTarget "HotpepperAPITests" */;
+			buildPhases = (
+				63D316102D42A0D2005AD425 /* Sources */,
+				63D316112D42A0D2005AD425 /* Frameworks */,
+				63D316122D42A0D2005AD425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D316162D42A0D2005AD425 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				63D316172D42A0D2005AD425 /* HotpepperAPITests */,
+			);
+			name = HotpepperAPITests;
+			packageProductDependencies = (
+			);
+			productName = HotpepperAPITests;
+			productReference = 63D316142D42A0D2005AD425 /* HotpepperAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63D3161D2D42A0D2005AD425 /* HotpepperAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D3162E2D42A0D2005AD425 /* Build configuration list for PBXNativeTarget "HotpepperAPIUITests" */;
+			buildPhases = (
+				63D3161A2D42A0D2005AD425 /* Sources */,
+				63D3161B2D42A0D2005AD425 /* Frameworks */,
+				63D3161C2D42A0D2005AD425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D316202D42A0D2005AD425 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				63D316212D42A0D2005AD425 /* HotpepperAPIUITests */,
+			);
+			name = HotpepperAPIUITests;
+			packageProductDependencies = (
+			);
+			productName = HotpepperAPIUITests;
+			productReference = 63D3161E2D42A0D2005AD425 /* HotpepperAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D315FC2D42A0CE005AD425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					63D316032D42A0CF005AD425 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					63D316132D42A0D2005AD425 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 63D316032D42A0CF005AD425;
+					};
+					63D3161D2D42A0D2005AD425 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 63D316032D42A0CF005AD425;
+					};
+				};
+			};
+			buildConfigurationList = 63D315FF2D42A0CE005AD425 /* Build configuration list for PBXProject "HotpepperAPI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63D315FB2D42A0CE005AD425;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 63D316052D42A0CF005AD425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D316032D42A0CF005AD425 /* HotpepperAPI */,
+				63D316132D42A0D2005AD425 /* HotpepperAPITests */,
+				63D3161D2D42A0D2005AD425 /* HotpepperAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D316022D42A0CF005AD425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D316122D42A0D2005AD425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D3161C2D42A0D2005AD425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D316002D42A0CF005AD425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D316102D42A0D2005AD425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D3161A2D42A0D2005AD425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63D316162D42A0D2005AD425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D316032D42A0CF005AD425 /* HotpepperAPI */;
+			targetProxy = 63D316152D42A0D2005AD425 /* PBXContainerItemProxy */;
+		};
+		63D316202D42A0D2005AD425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D316032D42A0CF005AD425 /* HotpepperAPI */;
+			targetProxy = 63D3161F2D42A0D2005AD425 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63D316262D42A0D2005AD425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63D316272D42A0D2005AD425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D316292D42A0D2005AD425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HotpepperAPI/Preview Content\"";
+				DEVELOPMENT_TEAM = QMK795U6Z6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "常に位置情報許可";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "位置情報の許可";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AIT.HotpepperAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63D3162A2D42A0D2005AD425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HotpepperAPI/Preview Content\"";
+				DEVELOPMENT_TEAM = QMK795U6Z6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "常に位置情報許可";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "位置情報の許可";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AIT.HotpepperAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63D3162C2D42A0D2005AD425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMK795U6Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AIT.HotpepperAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotpepperAPI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HotpepperAPI";
+			};
+			name = Debug;
+		};
+		63D3162D2D42A0D2005AD425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMK795U6Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AIT.HotpepperAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotpepperAPI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HotpepperAPI";
+			};
+			name = Release;
+		};
+		63D3162F2D42A0D2005AD425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMK795U6Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AIT.HotpepperAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HotpepperAPI;
+			};
+			name = Debug;
+		};
+		63D316302D42A0D2005AD425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QMK795U6Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AIT.HotpepperAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HotpepperAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D315FF2D42A0CE005AD425 /* Build configuration list for PBXProject "HotpepperAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D316262D42A0D2005AD425 /* Debug */,
+				63D316272D42A0D2005AD425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D316282D42A0D2005AD425 /* Build configuration list for PBXNativeTarget "HotpepperAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D316292D42A0D2005AD425 /* Debug */,
+				63D3162A2D42A0D2005AD425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D3162B2D42A0D2005AD425 /* Build configuration list for PBXNativeTarget "HotpepperAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D3162C2D42A0D2005AD425 /* Debug */,
+				63D3162D2D42A0D2005AD425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D3162E2D42A0D2005AD425 /* Build configuration list for PBXNativeTarget "HotpepperAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D3162F2D42A0D2005AD425 /* Debug */,
+				63D316302D42A0D2005AD425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63D315FC2D42A0CE005AD425 /* Project object */;
+}
